@@ -13,7 +13,8 @@
 .box{
     background-color: rgb(245, 245, 245);
     border: 1px solid lightgray;
-    width: 30%;
+    /* width: 30%; */
+    width: 20rem;
     cursor: pointer;
 }
 .box-parent{
@@ -23,7 +24,8 @@
 }
 
 .membership-card{
- width: 30%;
+ /* width: 30%; */
+ width: 20rem;
  background-color: white;
  margin: 10px;
  padding: 0px 0px 10px 0px;
@@ -31,5 +33,24 @@
 
 .happy_client_box{
     background-color: lightgray;
-    width: 30%;
+    /* width: 30%; */
+    width: 20rem;
+    margin-top: 20px;
+}
+
+
+/* ============privacy policy=============== */
+.privacy_policy{
+    background-color: lightgray;
+    min-height: 100vh;
+}
+.privacy_policy_link:hover{
+    /* color: rgb(94, 1, 1); */
+    color: red !important;
+    text-decoration: underline !important;
+}
+
+/*  */
+.carousel_image{
+    height: 35rem !important;
 }
