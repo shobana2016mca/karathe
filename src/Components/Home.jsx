@@ -55,7 +55,7 @@ const Home = () => {
       <nav className=" navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <a className="navbar-brand text-size my-auto" href="#">
-            <i className="fa-solid fa-phone icon-size my-auto"></i>123-456-789
+            <i className="fa-solid fa-phone icon-size my-auto"></i>9832480087
           </a>
           <Link to={'/privacy_policy'} className='text-white text-decoration-none privacy_policy_link'>Privacy Policy</Link>
           <button
@@ -73,7 +73,7 @@ const Home = () => {
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  <i className="fa-solid fa-envelope text-danger icon-size"></i>    contact@yourdomain.com
+                  <i className="fa-solid fa-envelope text-danger icon-size"></i>    kaizenkarateindia.com
                 </a>
               </li>
               <li className="nav-item">
