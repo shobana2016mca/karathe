@@ -50,6 +50,9 @@ import clients6 from '../Images/Clients/w6.png';
 import Home from "./Components/Home";
 import { Route, Routes } from "react-router-dom";
 import PrivacyPolicy from "./Components/PrivacyPolicy";
+import Contact from "./Components/Contact";
+import About from "./Components/About";
+import WhatsAppButton from "./Components/WhatsAppButton";
 
 
 
@@ -60,7 +63,11 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/privacy_policy" element={<PrivacyPolicy/>}/>
+      <Route path="/contact" element={<Contact/>}/>
+      <Route path="/about" element={<About/>}/>
+
     </Routes>
+    <WhatsAppButton/>
     </>
 //     <div>
 //       <nav className=" navbar navbar-expand-lg navbar-dark bg-dark">
